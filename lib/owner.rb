@@ -21,4 +21,8 @@ class Owner
     @@all.size 
   end 
   
+  def reset_all 
+    @@all.clear 
+  end 
+  
 end
