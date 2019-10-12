@@ -57,9 +57,11 @@ class Owner
   def sell_pets 
     self.cats.collect do |cat|
       cat.mood = "nervous"
+      cat.owner = nil 
     end 
     self.dogs.collect do |dog|
       dog.mood = "nervous" 
+      dog.owner = nil 
     end 
   end 
   
