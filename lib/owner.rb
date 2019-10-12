@@ -27,7 +27,7 @@ class Owner
   end 
   
   def cats 
-    binding.pry 
+    Cats.all.select { |cat| } 
   end 
   
 end
