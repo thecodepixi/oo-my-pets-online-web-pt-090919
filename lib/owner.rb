@@ -26,7 +26,7 @@ class Owner
   end 
   
   def cats 
-    self.select { |owner| binding.pry } 
+    
   end 
   
 end
